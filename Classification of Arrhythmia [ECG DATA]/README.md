@@ -13,8 +13,6 @@ It can be found at: [https://archive.ics.uci.edu/ml/datasets/Arrhythmia](https:/
   * Our goal was to predict if a person is suffering from arrhythmia or not, and if yes, classify it in to one of 12 available groups.
 
 
-
-
 ### Algorithms Used
 1. KNN Classifier
 2. Logestic Regression
