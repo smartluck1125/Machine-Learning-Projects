@@ -1,7 +1,6 @@
 <div class="cell markdown">
 
-# Predicting Property Maintenance Fines
-
+# Predicting Property Maintenance Fine
 This is based on a data challenge from the Michigan Data Science Team
 ([MDST](http://midas.umich.edu/mdst/)).
 
@@ -61,7 +60,6 @@ included in the test set.
 <br>
 
 **File descriptions** (Use only this data for training your model\!)
-
     train.csv - the training set (all tickets issued 2004-2011)
     test.csv - the test set (all tickets issued 2012-2016)
     addresses.csv & latlons.csv - mapping from ticket id to addresses, and from addresses to lat/lon coordinates. 
