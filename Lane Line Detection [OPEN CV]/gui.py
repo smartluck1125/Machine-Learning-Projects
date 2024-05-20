@@ -32,7 +32,6 @@ def show_vid():
         lmain.configure(image=imgtk)
         lmain.after(10, show_vid)
 
-
 def show_vid2():
     if not cap2.isOpened():                             
         print("cant open the camera2")
