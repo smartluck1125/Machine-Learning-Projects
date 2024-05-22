@@ -29,6 +29,7 @@ resnet_model = resnet50(pretrained=True)
 for param in resnet_model.parameters():
     param.requires_grad = True
 
+
 n_inputs = resnet_model.fc.in_features
 resnet_model.fc = Sequential(Linear(n_inputs, 2048),
                             SELU(),
