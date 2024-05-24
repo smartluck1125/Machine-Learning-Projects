@@ -8,6 +8,7 @@ def main(args):
     s = smtplib.SMTP("smtp.gmail.com", 587)
     s.starttls()
     s.login("sender email", "sender password") #Replace with your own Gmail ID and Google Account App Password
+
     msg = MIMEMultipart() 
     msg['From']="sender email" #Replace with your own Gmail ID
     msg['To']="receiver email" #Replace with your receiver email ID
