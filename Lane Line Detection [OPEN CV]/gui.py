@@ -5,7 +5,6 @@ from PIL import Image, ImageTk
 import os
 import numpy as np
 
-
 global last_frame1                                    #creating global              variable
 last_frame1 = np.zeros((480, 640, 3), dtype=np.uint8)
 global last_frame2                                      #creating global      variable
