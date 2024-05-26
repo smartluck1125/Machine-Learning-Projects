@@ -14,7 +14,6 @@ leye = cv2.CascadeClassifier('haar cascade files\haarcascade_lefteye_2splits.xml
 reye = cv2.CascadeClassifier('haar cascade files\haarcascade_righteye_2splits.xml')
 
 
-
 lbl=['Close','Open']
 
 model = load_model('models/cnncat2.h5')
