@@ -37,7 +37,6 @@ disease_precaution['Disease'] = disease_precaution['Disease'].apply(lambda x: x.
 symptom_severity = pd.read_csv("data/Symptom-severity.csv")
 symptom_severity = symptom_severity.applymap(lambda s: s.lower().strip(" ").replace(" ", "") if type(s) == str else s)
 
-
 with open('data/list_of_symptoms.pickle', 'rb') as data_file:
     symptoms_list = pickle.load(data_file)
 
